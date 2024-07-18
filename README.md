@@ -45,7 +45,7 @@ El dataset utilizado en este proyecto se obtuvo mediante la versión gratuita de
 4. Ejecutar el notebook Jupyter
 
 ## Resultados
-[Aquí puedes incluir un resumen de tus resultados, como la precisión de cada modelo]
+
 
 ## Desafíos y observaciones
 
