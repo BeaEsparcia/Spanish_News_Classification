@@ -1,9 +1,9 @@
 # Proyecto de clasificación de noticias en español
 
-Python
-NLTK 3.5
-Scikit-learn 0.24.2
-License: MIT
+- Python
+- NLTK 3.5
+- Scikit-learn 0.24.2
+- License: MIT
 
 ## Descripción
 
