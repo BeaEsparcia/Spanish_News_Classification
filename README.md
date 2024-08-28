@@ -1,13 +1,54 @@
 # Proyecto de clasificación de noticias en español
 
+Python
+NLTK 3.5
+Scikit-learn 0.24.2
+License: MIT
+
 ## Descripción
-Este proyecto utiliza técnicas de procesamiento de lenguaje natural (PLN) y aprendizaje automático para clasificar noticias en español en diferentes categorías.
+
+Este proyecto implementa un sistema de clasificación de noticias en español utilizando técnicas de Procesamiento de Lenguaje Natural (PLN) y aprendizaje automático. El objetivo es categorizar automáticamente artículos de noticias en seis categorías diferentes: cultura, deportes, economía, España, internacional y sociedad.
+
+## Características
+
+- Preprocesamiento de texto avanzado incluyendo tokenización, eliminación de stopwords y stemming.
+- Vectorización de texto utilizando TF-IDF.
+- Implementación de dos modelos de clasificación: Regresión Logística y Random Forest.
+- Evaluación detallada de modelos con métricas de precisión, recall y F1-score.
+- Visualización de resultados mediante matrices de confusión.
 
 ## Dataset
+
 El dataset utilizado en este proyecto se obtuvo mediante la versión gratuita de NewsAPI y está alojado en GitHub.
 
 - **Fuente de datos**: NewsAPI (versión gratuita)
 - **Ubicación del dataset**: [GitHub Repository](https://github.com/BeaEsparcia/Clasificacion_Noticias)
+
+## Tecnologías utilizadas
+
+- Python 3.7+
+- Pandas: para manipulación de datos
+- NLTK: para procesamiento de lenguaje natural
+- Scikit-learn: para modelado y evalucación
+- Seaborn y Matplotlib: para visualización de resultados
+
+## Instalación y Uso
+
+1. Clonar el repositorio
+   git clone https://github.com/BeaEsparcia/Clasificacion_Noticias.git
+cd Clasificacion_Noticias
+
+3. Instalar las dependencias:
+   pip install -r requirements.txt
+   
+4. Descargar recursos de NLTK:
+   ```Python
+   import nltk
+   nltk.download('stopwords')
+   nltk.download('punkt')   
+   
+5. Ejecutar el notebook Jupyter Clasificacion_Noticias.ipynb
+
 
 ## Metodología
 
@@ -22,27 +63,8 @@ El dataset utilizado en este proyecto se obtuvo mediante la versión gratuita de
 - Utilización de TF-IDF Vectorizer para convertir el texto en características numéricas
 
 ### Modelos de Clasificación
-- Regresión Logística** Un modelo lineal que es fácil de interpretar y eficiente para problemas de clasificación.
-- Random Forest Classifier** Un modelo basado en árboles de decisión que mejora la precisión al combinar múltiples árboles de decisión para tomar una decisión final.
-
-## Tecnologías Utilizadas
-- Python
-- Pandas: Para manipulación de datos
-- NLTK: Para procesamiento de lenguaje natural
-- Scikit-learn: Para modelado y evaluación
-- Seaborn y Matplotlib: Para visualización de resultados
-
-## Instalación y Uso
-1. Clonar el repositorio
-2. Instalar las dependencias:
-   pip install nltk seaborn pandas scikit-learn matplotlib
-3. Descargar recursos de NLTK:
-   ```Python
-   import nltk
-   nltk.download('stopwords')
-   nltk.download('punkt')   
-   
-4. Ejecutar el notebook Jupyter
+- **Regresión Logística**: un modelo lineal eficiente para problemas de clasificación.
+- **Random Forest Classifier**: un modelo basado en árboles de decisión que mejora la precisión combinando múltiples árboles.
 
 ## Evaluación de los Modelos
 
@@ -79,15 +101,26 @@ Los modelos fueron evaluados utilizando las siguientes métricas:
 - **Promedio Macro:** Precision: 0.43, Recall: 0.42, F1-Score: 0.42
 - **Promedio Ponderado:** Precision: 0.43, Recall: 0.42, F1-Score: 0.42
 
-## Conclusiones: 
-El modelo de clasificación de noticias mostró un rendimiento aceptable, aunque hay margen de mejora.
+Para ver resultados detallados por categoría, consulte la sección de "resultados" en el cuaderno.
 
-## Áreas de Mejora
+## Conclusiones y áreas de mejora: 
+
+El modelo de clasificación de noticias mostró un rendimiento aceptable, con margen de mejora. Algunas áreas potenciales para futuros desarrollos incluyen:
+
 1. Ampliar el dataset con más fuentes de noticias
 2. Experimentar con modelos más avanzados como redes neuronales
 3. Realizar un análisis más profundo de las características importantes para la clasificación
 
+## Contribuciones
+
+Las contribuciones son bienvenidas. Por favor, abra un issue primero para discutir qué le gustaría cambiar.
+
+## Licencia
+
+Este proyecto está bajo la Licencia MIT. Vea el archivo LICENSE para más detalles.
+
 ## Contacto
+
 [Bea Esparcia] - [esparcia.beatriz@gmail.com] - [http://www.linkedin.com/in/beatriz-esparcia-6968b076]
 
    
