@@ -121,7 +121,7 @@ Este proyecto está bajo la Licencia MIT. Vea el archivo LICENSE para más detal
 
 ## Contacto
 
-[Bea Esparcia] - [esparcia.beatriz@gmail.com] - [http://www.linkedin.com/in/beatriz-esparcia-6968b076]
+[Bea Esparcia] - [esparcia.beatriz@gmail.com] - [www.linkedin.com/in/beaesparcia]
 
    
 
