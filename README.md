@@ -1,123 +1,142 @@
-# Proyecto de clasificación de noticias en español
+# Automated News Classification with NLP
 
 - Python
 - NLTK 3.5
 - Scikit-learn 0.24.2
 - License: MIT
 
-## Descripción
+## About the Project
 
-Este proyecto implementa un sistema de clasificación de noticias en español utilizando técnicas de Procesamiento de Lenguaje Natural (PLN) y aprendizaje automático. El objetivo es categorizar automáticamente artículos de noticias en seis categorías diferentes: cultura, deportes, economía, España, internacional y sociedad.
+In an era of information overload, organizing news efficiently is crucial. This project automates the classification of Spanish-language news articles using Natural Language Processing (NLP) and Machine Learning. By implementing text preprocessing, vectorization, and classification models, the system categorizes articles into six key areas: Culture, Sports, Economy, Spain, International, and Society.
+This approach could be applied in media platforms, content recommendation systems, or editorial workflows to streamline content organization and improve user experience.
 
-## Características
+## Key Features
 
-- Preprocesamiento de texto avanzado incluyendo tokenización, eliminación de stopwords y stemming.
-- Vectorización de texto utilizando TF-IDF.
-- Implementación de dos modelos de clasificación: Regresión Logística y Random Forest.
-- Evaluación detallada de modelos con métricas de precisión, recall y F1-score.
-- Visualización de resultados mediante matrices de confusión.
+- Advanced text preprocessing: tokenization, stopword removal, and stemming
+- Text vectorization using TF-IDF
+- Implementation of two classification models: Logistic Regression and Random Forest
+- Detailed model evaluation with precision, recall, and F1-score metrics
+- Results visualization through confusion matrices
+
+## Why It Matters
+
+Classifying news articles automatically is not only a technical challenge — it directly impacts user experience and editorial efficiency. Accurate classification allows media platforms to:
+
+- Recommend more relevant content to users, enhancing their experience.
+- Streamline internal workflows by automatically tagging and categorizing articles.
+- Gain insights into content distribution across different categories over time.
+
+**This project bridges NLP techniques and practical content strategy, showing how language technology can enhance real-world communication.**
 
 ## Dataset
 
-El dataset utilizado en este proyecto se obtuvo mediante la versión gratuita de NewsAPI y está alojado en GitHub.
+The dataset used in this project was obtained through the free version of NewsAPI and is hosted on GitHub
 
-- **Fuente de datos**: NewsAPI (versión gratuita)
-- **Ubicación del dataset**: [GitHub Repository](https://github.com/BeaEsparcia/Clasificacion_Noticias)
+- **Data source**: NewsAPI (free version)
+- **dataset location**: [GitHub Repository](https://github.com/BeaEsparcia/Clasificacion_Noticias)
 
-## Tecnologías utilizadas
+## Technologies Used
 
 - Python 3.7+
-- Pandas: para manipulación de datos
-- NLTK: para procesamiento de lenguaje natural
-- Scikit-learn: para modelado y evalucación
-- Seaborn y Matplotlib: para visualización de resultados
+- Pandas: for data manipulation
+- NLTK: for natural language processing
+- Scikit-learn: for modeling and evaluation
+- Seaborn y Matplotlib: for results visualization
 
-## Instalación y Uso
+## Installation and Usage
 
-1. Clonar el repositorio
+1. Clone the repository:
    git clone https://github.com/BeaEsparcia/Clasificacion_Noticias.git
 cd Clasificacion_Noticias
 
-3. Instalar las dependencias:
+3. Install the dependencies:
    pip install -r requirements.txt
    
-4. Descargar recursos de NLTK:
+4. Download NLTK resources:
    ```Python
    import nltk
    nltk.download('stopwords')
    nltk.download('punkt')   
    
-5. Ejecutar el notebook Jupyter Clasificacion_Noticias.ipynb
+5. Run the Jupyter notebook Clasificacion_Noticias.ipynb
 
 
-## Metodología
+## Methodology
 
-### Preprocesamiento de texto
-1. Conversión a minúsculas
-2. Eliminación de puntuación
-3. Tokenización
-4. Eliminación de stopwords en español
-5. Stemming utilizando SnowballStemmer para español
+### Text Preprocessing
+1. Conversion to lowercase
+2. Punctuation removal
+3. Tokenization
+4. Stopword removal for Spanish
+5. Stemming using SnowballStemmer for Spanish
 
-### Vectorización
-- Utilización de TF-IDF Vectorizer para convertir el texto en características numéricas
+### Vectorization
+- Using the TF-IDF Vectorizer to convert text into numerical features
 
-### Modelos de Clasificación
-- **Regresión Logística**: un modelo lineal eficiente para problemas de clasificación.
-- **Random Forest Classifier**: un modelo basado en árboles de decisión que mejora la precisión combinando múltiples árboles.
+### Classification Models
+- **Logistic Regression**: an efficient linear model for classification problems.
+- **Random Forest Classifier**: a decision tree-based model that improves accuracy by combining multiple trees.
 
-## Evaluación de los Modelos
+## Model Evaluation
 
-Los modelos fueron evaluados utilizando las siguientes métricas:
+The models were evaluated using the following metrics:
 
-- **Exactitud (Accuracy):** Mide el porcentaje de predicciones correctas sobre el total de predicciones.
-- **Precision:** Mide la proporción de verdaderos positivos entre el total de positivos predichos.
-- **Recall:** Mide la proporción de verdaderos positivos entre el total de positivos reales.
-- **F1-Score:** Mide la armonía entre la precisión y el recall.
-- **Matriz de Confusión:** Proporciona una visión detallada de las verdaderas positivas, falsas positivas, verdaderas negativas y falsas negativas para cada categoría.
+- **Accuracy:** Measures the percentage of correct predictions out of the total predictions.
+- **Precision:** Measures the proportion of true positives among all predicted positives.
+- **Recall:** Measures the proportion of true positives among all actual positives.
+- **F1-Score:** Measures the balance between precision and recall.
+- **Confusion Matrix:** Provides a detailed view of true positives, false positives, true negatives, and false negatives for each category.
 
-## Resultados
-### Regresión Logística:
-- **Exactitud General:** 47%
-- **Rendimiento por Categoría:**
-  - **Cultura:** Precision: 0.36, Recall: 0.40, F1-Score: 0.38
-  - **Deportes:** Precision: 0.59, Recall: 0.42, F1-Score: 0.49
-  - **Economía:** Precision: 0.57, Recall: 0.58, F1-Score: 0.57
-  - **España:** Precision: 0.47, Recall: 0.50, F1-Score: 0.48
-  - **Internacional:** Precision: 0.51, Recall: 0.47, F1-Score: 0.49
-  - **Sociedad:** Precision: 0.37, Recall: 0.42, F1-Score: 0.39
-- **Promedio Macro:** Precision: 0.48, Recall: 0.47, F1-Score: 0.47
-- **Promedio Ponderado:** Precision: 0.48, Recall: 0.47, F1-Score: 0.47
+## Results
+### Logistic Regression:
+- **Overall Accuracy:** 47%
+- **Performance by Category:**
+  - **Culture:** Precision: 0.36, Recall: 0.40, F1-Score: 0.38
+  - **Sports:** Precision: 0.59, Recall: 0.42, F1-Score: 0.49
+  - **Economy:** Precision: 0.57, Recall: 0.58, F1-Score: 0.57
+  - **Spain:** Precision: 0.47, Recall: 0.50, F1-Score: 0.48
+  - **International:** Precision: 0.51, Recall: 0.47, F1-Score: 0.49
+  - **Society:** Precision: 0.37, Recall: 0.42, F1-Score: 0.39
+- **Macro Average:** Precision: 0.48, Recall: 0.47, F1-Score: 0.47
+- **Weighted Average:** Precision: 0.48, Recall: 0.47, F1-Score: 0.47
 
 ### Random Forest:
-- **Exactitud General:** 42%
-- **Rendimiento por Categoría:**
-  - **Cultura:** Precision: 0.31, Recall: 0.42, F1-Score: 0.36
-  - **Deportes:** Precision: 0.57, Recall: 0.44, F1-Score: 0.50
-  - **Economía:** Precision: 0.57, Recall: 0.55, F1-Score: 0.56
-  - **España:** Precision: 0.41, Recall: 0.39, F1-Score: 0.40
-  - **Internacional:** Precision: 0.41, Recall: 0.37, F1-Score: 0.39
-  - **Sociedad:** Precision: 0.33, Recall: 0.34, F1-Score: 0.34
-- **Promedio Macro:** Precision: 0.43, Recall: 0.42, F1-Score: 0.42
-- **Promedio Ponderado:** Precision: 0.43, Recall: 0.42, F1-Score: 0.42
+- **Overall Accuracy:** 42%
+- **Performance by Category:**
+  - **Culture:** Precision: 0.31, Recall: 0.42, F1-Score: 0.36
+  - **Sports:** Precision: 0.57, Recall: 0.44, F1-Score: 0.50
+  - **Economy:** Precision: 0.57, Recall: 0.55, F1-Score: 0.56
+  - **Spain::** Precision: 0.41, Recall: 0.39, F1-Score: 0.40
+  - **International** Precision: 0.41, Recall: 0.37, F1-Score: 0.39
+  - **Society:** Precision: 0.33, Recall: 0.34, F1-Score: 0.34
+- **Macro Average:** Precision: 0.43, Recall: 0.42, F1-Score: 0.42
+- **Weighted Average:** Precision: 0.43, Recall: 0.42, F1-Score: 0.42
 
-Para ver resultados detallados por categoría, consulte la sección de "resultados" en el cuaderno.
+For detailed results by category, please refer to the "Resultados" section in the notebook.
 
-## Conclusiones y áreas de mejora: 
+## Conclusions and Areas for Improvement: 
 
-El modelo de clasificación de noticias mostró un rendimiento aceptable, con margen de mejora. Algunas áreas potenciales para futuros desarrollos incluyen:
+The news classification model showed acceptable performance, with room for improvement. Some potential areas for future development include:
 
-1. Ampliar el dataset con más fuentes de noticias
-2. Experimentar con modelos más avanzados como redes neuronales
-3. Realizar un análisis más profundo de las características importantes para la clasificación
+1. Expanding the dataset with more news sources
+2. Experimenting with more advanced models such as neural networks
+3. Conducting a deeper analysis of the key features for classification
 
-## Contribuciones
+## What I Learned 
 
-Las contribuciones son bienvenidas. Por favor, abra un issue primero para discutir qué le gustaría cambiar.
+This project allowed me to deepen my understanding of text preprocessing for Spanish-language data, which presents unique challenges compared to English datasets.
+Working with imbalanced categories and noisy real-world data gave me a clearer perspective on the importance of data quality and iterative model tuning.
+Additionally, the project strengthened my ability to evaluate models beyond accuracy, using more nuanced metrics like precision, recall, and F1-score.
 
-## Licencia
+Finally, this project reaffirmed my passion for NLP applied to real-world content management problems, bridging technology, language, and user experience — exactly the type of challenges I want to work on in my career.
 
-Este proyecto está bajo la Licencia MIT. Vea el archivo LICENSE para más detalles.
+## Contributions
+
+Contributions are welcome. Please open an issue first to discuss any changes you'd like to make.
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for more details.
 
 ## Contacto
 
