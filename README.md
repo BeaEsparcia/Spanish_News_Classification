@@ -88,31 +88,12 @@ The models were evaluated using the following metrics:
 - **Confusion Matrix:** Provides a detailed view of true positives, false positives, true negatives, and false negatives for each category.
 
 ## Results
-### Logistic Regression:
-- **Overall Accuracy:** 47%
-- **Performance by Category:**
-  - **Culture:** Precision: 0.36, Recall: 0.40, F1-Score: 0.38
-  - **Sports:** Precision: 0.59, Recall: 0.42, F1-Score: 0.49
-  - **Economy:** Precision: 0.57, Recall: 0.58, F1-Score: 0.57
-  - **Spain:** Precision: 0.47, Recall: 0.50, F1-Score: 0.48
-  - **International:** Precision: 0.51, Recall: 0.47, F1-Score: 0.49
-  - **Society:** Precision: 0.37, Recall: 0.42, F1-Score: 0.39
-- **Macro Average:** Precision: 0.48, Recall: 0.47, F1-Score: 0.47
-- **Weighted Average:** Precision: 0.48, Recall: 0.47, F1-Score: 0.47
 
-### Random Forest:
-- **Overall Accuracy:** 42%
-- **Performance by Category:**
-  - **Culture:** Precision: 0.31, Recall: 0.42, F1-Score: 0.36
-  - **Sports:** Precision: 0.57, Recall: 0.44, F1-Score: 0.50
-  - **Economy:** Precision: 0.57, Recall: 0.55, F1-Score: 0.56
-  - **Spain::** Precision: 0.41, Recall: 0.39, F1-Score: 0.40
-  - **International** Precision: 0.41, Recall: 0.37, F1-Score: 0.39
-  - **Society:** Precision: 0.33, Recall: 0.34, F1-Score: 0.34
-- **Macro Average:** Precision: 0.43, Recall: 0.42, F1-Score: 0.42
-- **Weighted Average:** Precision: 0.43, Recall: 0.42, F1-Score: 0.42
+### Confusion Matrix - Logistic Regression
+![Confusion Matrix - Logistic Regression](images/confusion_matrix_lr.jpeg)
 
-For detailed results by category, please refer to the "Resultados" section in the notebook.
+### Confusion Matrix - Random Forest
+![Confusion Matrix - Random Forest](images/confusion_matrix_rf.jpeg)
 
 ## Conclusions and Areas for Improvement: 
 
