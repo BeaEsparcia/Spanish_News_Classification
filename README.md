@@ -90,10 +90,10 @@ The models were evaluated using the following metrics:
 ## Results
 
 ### Confusion Matrix - Logistic Regression
-![Confusion Matrix - Logistic Regression](images/confusion_matrix_lr.jpeg)
+![Confusion Matrix - Logistic Regression](images/confusion_matrix_lr.jpg)
 
 ### Confusion Matrix - Random Forest
-![Confusion Matrix - Random Forest](images/confusion_matrix_rf.jpeg)
+![Confusion Matrix - Random Forest](images/confusion_matrix_rf.jpg)
 
 ## Conclusions and Areas for Improvement: 
 
