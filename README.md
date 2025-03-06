@@ -138,7 +138,7 @@ Contributions are welcome. Please open an issue first to discuss any changes you
 
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
-## Contacto
+## Contact
 
 [Bea Esparcia] - [esparcia.beatriz@gmail.com] - [www.linkedin.com/in/beaesparcia]
 
