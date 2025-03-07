@@ -46,20 +46,9 @@ The dataset used in this project was obtained through the free version of NewsAP
 ## Installation and Usage
 
 1. Clone the repository:
-   git clone https://github.com/BeaEsparcia/Clasificacion_Noticias.git
-cd Clasificacion_Noticias
-
-3. Install the dependencies:
-   pip install -r requirements.txt
-   
-4. Download NLTK resources:
-   ```Python
-   import nltk
-   nltk.download('stopwords')
-   nltk.download('punkt')   
-   
-5. Run the Jupyter notebook Clasificacion_Noticias.ipynb
-
+2. git clone https://github.com/BeaEsparcia/Spanish_News_Classification.git
+3. cd Spanish_News_Classification
+4. Run the Jupyter notebook: Spanish_News_Classification.ipynb
 
 ## Methodology
 
