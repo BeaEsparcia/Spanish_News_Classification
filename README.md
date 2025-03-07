@@ -7,8 +7,8 @@
 
 ## About the Project
 
-In an era of information overload, organizing news efficiently is crucial. This project automates the classification of Spanish-language news articles using Natural Language Processing (NLP) and Machine Learning. By implementing text preprocessing, vectorization, and classification models, the system categorizes articles into six key areas: Culture, Sports, Economy, Spain, International, and Society.
-This approach could be applied in media platforms, content recommendation systems, or editorial workflows to streamline content organization and improve user experience.
+In an era of information overload, organizing news efficiently is crucial. **This project automates the classification of Spanish-language news articles using Natural Language Processing (NLP) and Machine Learning.** By implementing text preprocessing, vectorization, and classification models, the system categorizes articles into six key areas: Culture, Sports, Economy, Spain, International, and Society.
+**This approach could be applied in media platforms, content recommendation systems, or editorial workflows to streamline content organization and improve user experience.**
 
 ## Key Features
 
@@ -95,11 +95,11 @@ The news classification model showed acceptable performance, with room for impro
 
 ## What I Learned 
 
-This project allowed me to deepen my understanding of text preprocessing for Spanish-language data, which presents unique challenges compared to English datasets.
-Working with imbalanced categories and noisy real-world data gave me a clearer perspective on the importance of data quality and iterative model tuning.
-Additionally, the project strengthened my ability to evaluate models beyond accuracy, using more nuanced metrics like precision, recall, and F1-score.
+**This project allowed me to deepen my understanding of text preprocessing for Spanish-language data**, which presents unique challenges compared to English datasets.
+Working with noisy real-world data gave me a clearer perspective on the importance of data quality and iterative model tuning.
+Additionally,**the project strengthened my ability to evaluate models beyond accuracy**, using more nuanced metrics like precision, recall, and F1-score.
 
-Finally, this project reaffirmed my passion for NLP applied to real-world content management problems, bridging technology, language, and user experience — exactly the type of challenges I want to work on in my career.
+Finally,**this project reaffirmed my passion for NLP applied to real-world content management problems,** bridging technology,language and user experience — exactly the type of challenges I want to work on in my career.
 
 ## Contributions
 
