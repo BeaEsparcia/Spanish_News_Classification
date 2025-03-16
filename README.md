@@ -45,10 +45,17 @@ The dataset used in this project was obtained through the free version of NewsAP
 
 ## Installation and Usage
 
-1. Clone the repository:
-2. git clone https://github.com/BeaEsparcia/Spanish_News_Classification.git
-3. cd Spanish_News_Classification
-4. Run the Jupyter notebook: Spanish_News_Classification.ipynb
+### 1. Clone the repository
+```bash
+git clone https://github.com/BeaEsparcia/Spanish_News_Classification.git
+cd Spanish_News_Classification
+
+### 2. Run the Jupyter Notebook
+If you have Jupyter Notebook installed, open the notebook with:
+jupyter notebook Spanish_News_Classification.ipynb
+
+Alternatively, you can run it directly in Google Colab:
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BeaEsparcia/Spanish_News_Classification/blob/main/Spanish_News_Classification.ipynb)
 
 ## Methodology
 
