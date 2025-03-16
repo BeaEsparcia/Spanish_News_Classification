@@ -54,7 +54,7 @@ If you have Jupyter Notebook installed, open the notebook with:
 jupyter notebook Spanish_News_Classification.ipynb
 
 Alternatively, you can run it directly in Google Colab:
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BeaEsparcia/Spanish_News_Classifier./blob/main/Spanish_News_Classification.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BeaEsparcia/Spanish_News_Classification/blob/main/Spanish_News_Classifier.ipynb)
 
 ## Methodology
 
